@@ -8,11 +8,6 @@
     <artifactId>oit.framework</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-    </properties>
-
     <build>
         <plugins>
             <plugin>
@@ -26,6 +21,39 @@
             </plugin>
         </plugins>
     </build>
+    <packaging>jar</packaging>
+
+    <name>oit test library</name>
+    <description>library for my team to help us be more productive</description>
+    <url>https://github.com/ahmedelkolfat/oit.framework</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git://github.com/ahmedelkolfat/oit.framework.git</connection>
+        <developerConnection>scm:git:ssh://github.com:ahmedelkolfat/oit.framework.git</developerConnection>
+        <url>https://github.com/ahmedelkolfat/oit.framework</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Ahmed Alaaeldin</name>
+            <email>ahmedelkolfat@outlook.com</email>
+            <organization>org.officeit</organization>
+            <organizationUrl>https://github.com/ahmedelkolfat/</organizationUrl>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UFT-8</project.build.sourceEncoding>
+    </properties>
+
+
 
     <dependencies>
         <dependency>
